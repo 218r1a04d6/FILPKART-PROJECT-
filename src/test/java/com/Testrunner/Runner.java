@@ -6,6 +6,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
         features = "src/test/resources/features/searchfunctionality.feature",
         glue = {"com.stepdefination"},
+        tags = "@tc002",
         plugin = {
                 "pretty",
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
